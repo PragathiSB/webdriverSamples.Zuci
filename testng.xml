@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="SampleSuite" thread-count="2" parallel="classes">
+<!--	<groups>
+	<define name="SmokeTest">
+		<include name="feature3"></include>
+		
+	</define>
+	<define name="RegressionTest">
+		<include name="feature1"></include>
+		<include name="feature2"></include>
+	</define>
+	
+		<run>
+			<include name="feature1"/>
+			<include name="feature2"/> 
+			<include name="feature1"/>
+			<exclude name="feature2"/>
+		</run> 
+		<run>
+			<exclude name="RegressionTest"></exclude>
+		</run>
+	</groups> -->
+  <test thread-count="5" name="ModuleTest">
+	  <parameter name="browser" value="edge"/>>
+    <classes>
+		<class name="testScript.PageLoadTest"/>
+	<!--	<class name="parallelScript.SampleOneTest"/> -->
+	<!--<class name="groupScript.SampleThreeTest"/>
+		<class name="groupScript.SampleTwoTest"/>
+		<class name="testScript.CustomBrowserTest" />-->
+		<!--
+	   <class name="testScript.TestSuiteSample"/>
+      <class name="testScript.LoginPageTest"/>
+      <class name="testScript.TakingScreenShot"/>
+      <class name="testScript.DemoqaFormTest"/>
+      <class name="testScript.ClearBoxCheck"/>
+      <class name="testScript.DoubleMultiClick"/>
+      <class name="testScript.GoogleSearchTest"/>
+      <class name="testScript.RadioSelect"/>
+      <class name="testScript.FileDownloadTest"/>
+      <class name="testScript.DemoTest"/>
+      <class name="testScript.MouseAction"/>
+      <class name="testScript.AlertTest"/>
+      <class name="testScript.ExplicitWaitTest"/>
+      <class name="testScript.PageLoadTest"/>
+      <class name="testScript.ChkRadioTest"/>
+      <class name="testScript.FileUploadTest"/>
+      <class name="testScript.FrameTest"/>
+      <class name="testScript.PreceedingSuceedingList"/>
+      <class name="testScript.HideImageTest"/>
+      <class name="testScript.SeleniumDemo"/>
+      <class name="testScript.MouseClick"/>
+      <class name="testScript.JavaPdf"/>
+      <class name="testScript.WindowHadleSample"/>
+      <class name="testScript.WebTableTest"/>
+      <class name="testScript.AutocompleteTest"/> -->
+    </classes>
+  </test> <!-- ModuleTest -->
+</suite> <!-- SampleSuite -->
+<!-- testsuite->tests->classes->test methods -->
