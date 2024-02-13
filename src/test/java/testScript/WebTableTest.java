@@ -22,8 +22,8 @@ public class WebTableTest {
 	  {
 		  System.out.println(elem.getText());
 	  }
-	 // String items1=driver.findElement(By.xpath("//td[text()='B. Wagner']//following-sibling::tr[5]")).getText();
-	  //System.out.println("salary:"+items1);
+	  String items1=driver.findElement(By.xpath("//td[text()='B. Wagner']//following-sibling::tr[5]")).getText();
+	  System.out.println("salary:"+items1);
 	  
 	  
   }

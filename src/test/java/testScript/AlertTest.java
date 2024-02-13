@@ -30,6 +30,7 @@ public class AlertTest {
 	  prompt.sendKeys("Hello Welcome");
 	 // prompt.accept();
 	 prompt.dismiss();
+	 System.out.println("hel");
 	  
 	  
   }
