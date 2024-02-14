@@ -24,7 +24,7 @@
   <test name="ModuleOneTest">
 	<!--   <parameter name="browser" value="edge"/>> -->
     <classes>
-		<class name="testScript.SampleOneTest"/>
+		<class name="testScript.ClearBoxCheck"/>
 	<!--	<class name="parallelScript.SampleOneTest"/> -->
 	<!--<class name="groupScript.SampleThreeTest"/>
 		<class name="groupScript.SampleTwoTest"/>
