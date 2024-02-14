@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="SampleSuite" thread-count="2" parallel="classes">
+<suite name="SampleSuite">
 <!--	<groups>
 	<define name="SmokeTest">
 		<include name="feature3"></include>

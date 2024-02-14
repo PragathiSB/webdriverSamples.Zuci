@@ -3,17 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScript.InvalidLoginTest">
+      <class name="testScript.SampleOneTest">
         <methods>
-          <include name="blankUsrName"/>
-          <include name="blankUsrNameAndPwsd"/>
-          <include name="login"/>
-          <include name="terminate"/>
-          <include name="incorrectUsrName"/>
-          <include name="loginsetup"/>
-          <include name="incorrectPswd"/>
+          <include name="finishExtent"/>
+          <include name="setup"/>
+          <include name="googleSearchappium"/>
+          <include name="ending"/>
+          <include name="setupExtent"/>
         </methods>
-      </class> <!-- testScript.InvalidLoginTest -->
+      </class> <!-- testScript.SampleOneTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
