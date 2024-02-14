@@ -24,7 +24,7 @@
   <test thread-count="5" name="ModuleTest">
 	  <parameter name="browser" value="edge"/>>
     <classes>
-		<class name="testScript.PageLoadTest"/>
+		<class name="testScript.SampleOneTest"/>
 	<!--	<class name="parallelScript.SampleOneTest"/> -->
 	<!--<class name="groupScript.SampleThreeTest"/>
 		<class name="groupScript.SampleTwoTest"/>
